@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+.page-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.userProfileStats {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
